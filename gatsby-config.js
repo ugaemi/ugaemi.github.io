@@ -4,6 +4,14 @@ module.exports = {
   siteMetadata: metaConfig,
   plugins: [
     {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://ugaemi.github.io`,
+        sitemap: `https://ugaemi.github.io/sitemap.xml`,
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
