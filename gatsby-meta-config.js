@@ -25,6 +25,12 @@ module.exports = {
   share: {
     facebookAppId: `1240894782751179`, // Add facebookAppId for using facebook share feature v3.2
   },
+  siteMetadata: {
+    title: `개미의 개발노트`,
+    author: `ugaemi`,
+    description: `ugaemi's dev note`,
+    siteUrl: `https://ugaemi.github.io`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -51,10 +57,4 @@ module.exports = {
       },
     },
   ],
-  siteMetadata: {
-    title: `개미의 개발노트`,
-    author: `ugaemi`,
-    description: `ugaemi's dev note`,
-    siteUrl: `https://ugaemi.github.io`,
-  },
 }
