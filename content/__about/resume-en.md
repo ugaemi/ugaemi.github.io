@@ -6,4 +6,4 @@ lang: 'en'
 
 # 김유경 Kim Yugyeong
 
-준비중입니다 :D 낄낄
+준비중입니다 :D 낄낄낄
