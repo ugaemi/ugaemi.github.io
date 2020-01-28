@@ -71,8 +71,9 @@ pre[class*='language-'] {
   padding: 0.1em 0.6em;
   border-radius: 0.2em;
   white-space: normal;
-  background: $inline-dimmed-color;
-  color: $inline-text-color;
+  border: 2px;
+  background: #ecf0f2;
+  color: $light-link-color;
 }
 
 .token.comment,
