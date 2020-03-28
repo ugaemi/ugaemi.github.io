@@ -12,8 +12,9 @@ lang: 'en'
 
 ### 💼 Career
 
-- [GANCO](https://airwafi.com) Back-end (2019.03 ~ 2019.08)
+- [PlusX](https://plus-ex.com/) DX Team Back-end Developer (2020.01 ~ )
+- [GANCO](https://airwafi.com) Back-end Developer (2019.03 ~ 2019.08)
 
 ### 🐣 Internship
 
-- [Insilicogen](https://insilicogen.com) Python Developer (2018.07 ~ 2019.02)
+- [Insilicogen](https://insilicogen.com) DSC Team Python Developer (2018.07 ~ 2019.02)
