@@ -11,7 +11,7 @@ draft: false
 장고 폼을 제대로 이용하면 그동안 뷰에 거추장스럽게 늘어놓았던 유효성 검사에 대한 부분을 생략할 수 있다.
 정말 강력한 기능이니 알차게 써먹도록 하자!
 
-# 장고 폼을 이용하여 모든 입력 데이터에 대한 유효성 검사하기
+## 장고 폼을 이용하여 모든 입력 데이터에 대한 유효성 검사하기
 
 장고 폼은 파이썬 딕셔너리의 유효성을 검사하는 데 최상의 도구다.
 대부분의 경우 POST가 포함된 HTTP 요청을 받아 유효성을 검사하는 데 이용하지만 이런 경우 외에는 절대로 쓰지 말라는 제약은 없다.
@@ -84,7 +84,7 @@ def add_csv_purchase(rows):
     return records_added, errors
 ```
 
-# HTML 폼에서 POST 메서드 이용하기
+## HTML 폼에서 POST 메서드 이용하기
 
 데이터를 변경하는 모든 HTML 폼은 POST 메서드를 이용하여 데이터를 전송하게 된다.
 
@@ -92,7 +92,7 @@ def add_csv_purchase(rows):
 <form action="{% url 'flavor_add' %}" method="POST">
 ```
 
-# 데이터를 변경하는 HTTP 폼은 언제나 CSRF 보안을 이용해야 한다
+## 데이터를 변경하는 HTTP 폼은 언제나 CSRF 보안을 이용해야 한다
 
 장고에는 CSRF(Cross-Site Request Forgery protection, 사이트 간 위조 요청 방지)가 내장되어 있다.
 
@@ -102,13 +102,13 @@ API 요청은 단일 요청을 기반으로 인증 요청/인증 허용을 하�
 
 장고의 `CsrfViewMiddleware`를 사이트 전체에 대한 보호막으로 이용함으로써 일일이 손으로 `csrf_protect`를 뷰에 데코레이팅하지 않아도 된다.
 
-## AJAX를 통해 데이터 추가하기
+### AJAX를 통해 데이터 추가하기
 
 AJAX를 통해 데이터를 추가할 때는 반드시 장고의 CSRF 보안을 이용해야 한다.
 절대 AJAX 뷰를 CSRF에 예외 처리하지 말기 바란다.
 대신에 HTTP 헤더에 X-CSRFToken을 설정해두도록 한다.
 
-# 장고의 폼 인스턴스 속성을 추가하는 방법 이해하기
+## 장고의 폼 인스턴스 속성을 추가하는 방법 이해하기
 
 때때로 장고 폼의 `clean()`, `clean_FOO()`, `save()` 메서드에 추가로 폼 인스턴스 속성이 필요할 때가 있다.
 이럴 경우에는 `request.user` 객체를 이용하면 된다.
@@ -149,7 +149,7 @@ class TasterUpdateView(LoginRequiredMixin, UpdateView):
             return kwargs
 ```
 
-# 폼이 유효성을 검사하는 방법 알아두기
+## 폼이 유효성을 검사하는 방법 알아두기
 
 `form.is_valid()`가 호출될 때 여러 가지 일이 다음 순서로 진행된다.
 
@@ -163,7 +163,7 @@ class TasterUpdateView(LoginRequiredMixin, UpdateView):
     1. `form.is_valid()`가 `True`나 `False`로 설정되어 있는 것과 관계없이 `ModelForm` 데이터를 모델 인스턴스로 설정한다.
     2. 모델의 `clean()` 메서드를 호출한다. 참고로 ORM을 통해 모델 인스턴스를 저장할 때는 모델의 `clean()` 메서드가 호출되지는 않는다.
 
-## 모델폼 데이터는 폼에 먼저 저장된 이후 모델 인스턴스에 저장된다
+### 모델폼 데이터는 폼에 먼저 저장된 이후 모델 인스턴스에 저장된다
 
 `ModelForm`에서 폼 데이터는 두 가지 각기 다른 단계를 통해 저장된다.
 
@@ -212,7 +212,7 @@ class FlavorActionMixin(self):
         return super(FlavorActionMixin, self).form_invalid(form)
 ```
 
-# 11.6 Form.add_error()를 이용하여 폼에 에러 추가하기
+## Form.add_error()를 이용하여 폼에 에러 추가하기
 
 ```python
 from django import forms
