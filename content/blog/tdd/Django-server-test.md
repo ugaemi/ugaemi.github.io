@@ -50,8 +50,6 @@ browser = webdriver.Chrome('/path/to/chromedriver')
 
 그리고 다시 실행해보자.
 
-![개발서버와 연결이 안 된 페이지](../../img/post/2019/2019-08-24-01.png)
-
 ```shell
 Traceback (most recent call last):
   File "functional_test.py", line 11, in
@@ -67,8 +65,6 @@ python manage.py runserver
 ```
 
 그리고 다시 실행해보자.
-
-![selenium으로 접속한 화면](../../img/post/2019/2019-08-24-02.png)
 
 정상적으로 Django 웹 페이지가 보인다.
 Title에 **Django: the Web framework ...** 라고 쓰여있다.
