@@ -19,8 +19,6 @@ draft: false
 def threeSum(self, nums: List[int]) -> List[List[int]]:
     nums = sorted(nums)
     res = []
-    if len(nums) < 3:
-        return res
     for i in range(len(nums)):
         needs = 0 - nums[i]
         for j in range(i+1, len(nums)):
