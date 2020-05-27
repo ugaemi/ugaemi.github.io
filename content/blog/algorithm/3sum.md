@@ -44,54 +44,43 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
 
 ```python
 def threeSum(self, nums: List[int]) -> List[List[int]]:
-    ans = set()
-    setP = set()
-    setN = set()
+    res = []
+    nums.sort()
+    length = len(nums)
     
-    if len(nums) < 3: 
-        return ans 
-    
-    if nums.count(0) >= 3: 
-        ans.add((0,0,0)) 
-    
-    nums_set = set(nums)
-    numMax, numMin = max(nums_set), min(nums_set)
-    
-    if numMax <= 0 or numMin >= 0: 
-        return ans
-    
-    setP = set(num for num in nums_set if (num > 0 and num <= -2 * numMin))
-    setN = set(num for num in nums_set if (num < 0 and num >= -2 * numMax))
-
-    count = collections.Counter(nums)
-    for numP in setP:
-        for numN in setN:
-            numD = -numP - numN
-            if numD in nums_set:
-                val = tuple(sorted([numD,numP,numN]))
-                if val.count(numD) <= count[numD] \
-                    and val.count(numP) <= count[numP] \
-                        and val.count(numN) <= count[numN]:
-                    ans.add(val)
-    return ans
+    for i in range(length-2):
+        if nums[i] > 0:
+            break
+        if i > 0 and nums[i] == nums[i-1]:
+            continue
+        l, r = i + 1, length - 1
+        while l < r:
+            total = nums[i] + nums[l] + nums[r]
+            if total < 0:
+                l += 1
+            elif total > 0:
+                r -= 1
+            else:
+                res.append([nums[i], nums[l], nums[r]])
+                while l < r and nums[l] == nums[l+1]:
+                    l += 1
+                while l < r and nums[r] == nums[r-1]:
+                    r -= 1
+                l += 1
+                r -= 1
+    return res
 ```
 
-이 분은 우선 0이 3개 이상인 경우 결과에 (0,0,0)을 추가했다.
+이 분은 우선 정렬한 배열의 첫번째 값이 양수인 경우 바로 리턴했다. 음수가 없으면 아무리 조합해도 0을 만들 수 없기 때문이다.
+다음으로 현재 값과 바로 전 값이 동일하면 지나친다.
 
-그 다음 주어진 배열을 `set()`으로 묶고 가장 작은 값과 가장 큰 값을 저장했다.
-가장 큰 값이 0보다 작거나 가장 작은 값이 0보다 크면 어차피 0을 만들 수 없기 때문에 (0을 만들기 위해서는 무조건 음수, 양수의 조합이 필요하다) 바로 (0,0,0)을 리턴한다.
+현재 인덱스에 1을 더한 값을 `l`, 총 길이에서 1을 뺀 값(=배열의 총 인덱스)을 `r`에 저장한다.
+`l`이 `r`보다 작은 동안 while문을 반복한다.
 
-다음으로 `nums_set`을 돌며 양수를 판별하는데 이 때 추가 조건으로 `num <= -2 * numMin`가 들어간다.
-이 부분에서 짝을 절대 찾을 수 없는 숫자들이 제외된다.
-예를 들어 `nums = [-1, 0, 1, 5]`일 때, `numMin`은 -1이 되는데, `num`이 5일 때 `num <= 2 * numMin`은 `5 <= -2`로 False가 된다.
-5가 제외되는 이유는 5와 가장 작은 값인 -1을 더하면 4, 곧 0이 되기 위해서는 -4가 필요한데 가장 작은 값은 -1이기 때문에 짝을 찾을 수 없는 숫자가 된다.
-음수인 경우도 마찬가지이다.
+배열의 현재 값과 다음 값, 마지막 값을 더하여 `total`에 저장하고 그 값이 음수인 경우 `l`을 증가시키고 양수인 경우 `r`을 감소시킨다.
+세 개의 합이 0인 경우 결과값에 추가하고 `l`값과 `r`값을 조정한다.
 
-다음 for문은 필자가 생각했던 부분과 비슷하게 진행된다.
-두 가지 숫자로 나머지 한 값을 찾아내는 방식이다.
-여기서 다른 점은 이 분은 `collections.Counter()`를 이용해 구한 값들의 각 count가 실제 `nums`의 count에 벗어나지 않는지 체크해준다.
-
-속도 차이를 줄일 수 있었던 부분 중에 하나는 불필요한 숫자를 애초에 제거하고 반복하는 부분인 것 같다.
+나머지 두 숫자를 무작정 같은 배열의 for문으로 돌지 않고 초기화한 후 인덱스를 조절하며 찾아가니 훨씬 빠르다.
 
 
 ## References
