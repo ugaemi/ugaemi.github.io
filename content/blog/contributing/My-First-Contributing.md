@@ -2,7 +2,7 @@
 title: '🐱 나의 첫 오픈 소스 컨트리뷰팅'
 subtitle: 'My first open source contributing'
 date: 2020-05-19
-category: 'Git'
+category: 'Contributing'
 draft: false
 ---
 
