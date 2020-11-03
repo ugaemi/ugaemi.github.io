@@ -6,8 +6,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://ugaemi.github.io`,
-        sitemap: `https://ugaemi.github.io/sitemap.xml`,
+        host: `http://ugaemi.com`,
+        sitemap: `http://ugaemi.com/sitemap.xml`,
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },

@@ -8,7 +8,7 @@ draft: false
 
 ## 이슈
 
-[Django에서 단위 테스트 실행하기](https://ugaemi.github.io/2019-08-29-tdd-01/) 포스팅에서 import 관련 이슈를 해결했다.
+[Django에서 단위 테스트 실행하기](http://ugaemi.com/2019-08-29-tdd-01/) 포스팅에서 import 관련 이슈를 해결했다.
 [클린 코드를 위한 테스트 주도 개발](https://book.naver.com/bookdb/book_detail.nhn?bid=8819504) 책을 보고 따라하시던 분들도 이번 포스팅으로 에러를 해결하실 수 있을거다.
 
 Django를 시작할 때 `django-admin startproject project-name`을 하면 다음과 같은 구조로 디렉터리와 파일들이 생성된다.
