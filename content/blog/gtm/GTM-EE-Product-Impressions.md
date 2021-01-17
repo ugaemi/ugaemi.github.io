@@ -35,34 +35,31 @@ GA와 GTM에 이런 기능이 있는줄도 몰랐고 제대로 된 문서가 없
 
 ```html
 <script>
-    var addImpressionsEvent = function (callback) {
-        var goods = $('.item_gallery_type').find('li');
-        var impressions = [];
-        var goodsId, goodsName, goodsPrice, goodsBrand, goodsPosition, goodsCategory, goodsList;
-    
-        for (var i = 0; i < goods.length; i++) {
-            // goods 정보를 가져오는 스크립트 추가. 스킨마다 다른 부분
-            impressions.push({
-                'id': goodsId,
-                'name': goodsName,
-                'price': goodsPrice,
-                'brand': goodsBrand,
-                'position': goodsPosition,
-                'category': goodsCategory,
-                'list': goodsList,
-            })
-        }
-    
-        callback(impressions);
-    }
-    
-    addImpressionsEvent(function (impressions) {
-        dataLayer.push({
-            'ecommerce': {
-                'currencyCode': 'KRW',
-                'impressions' : impressions,
-            }
-        });
+    dataLayer.push({
+      'ecommerce': {
+        'currencyCode': 'KRW',
+        'impressions': [
+         {
+           'name': 'Triblend Android T-Shirt',
+           'id': '12345',
+           'price': '15.25',
+           'brand': 'Google',
+           'category': 'Apparel',
+           'variant': 'Gray',
+           'list': 'Search Results',
+           'position': 1
+         },
+         {
+           'name': 'Donut Friday Scented T-Shirt',
+           'id': '67890',
+           'price': '33.75',
+           'brand': 'Google',
+           'category': 'Apparel',
+           'variant': 'Black',
+           'list': 'Search Results',
+           'position': 2
+         }]
+      }
     });
 </script>
 ```
