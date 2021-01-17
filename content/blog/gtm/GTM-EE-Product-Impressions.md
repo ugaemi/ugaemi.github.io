@@ -17,7 +17,7 @@ GA와 GTM에 이런 기능이 있는줄도 몰랐고 제대로 된 문서가 없
 ### Measuring Product Impressions
 
 > Ecommerce Measurement: `impressions`
-
+>
 > Accepts Data: array of `impressionsFieldObjects`
 
 아래 References에 올린 docs를 보며 따라하는 게 전부이지만 그 나름대로 이해하기가 힘들었다.
