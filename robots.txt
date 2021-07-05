@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://ugaemi.com/sitemap.xml
+Host: ugaemi.com
