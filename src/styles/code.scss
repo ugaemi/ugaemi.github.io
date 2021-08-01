@@ -70,7 +70,7 @@ pre[class*='language-'] {
 :not(pre) > code[class*='language-'] {
   padding: .1em .3em;
   white-space: normal;
-  border: 4px solid #FFEDBC;
+  border-bottom: 4px solid #FFEDBC;
   background: transparent;
   color: $light-link-color;
   font-weight: 500;
