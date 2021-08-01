@@ -68,12 +68,12 @@ pre[class*='language-'] {
 
 /* Inline code */
 :not(pre) > code[class*='language-'] {
-  padding: 0.1em 0.6em;
-  border-radius: 0.2em;
+  padding: .1em .3em;
   white-space: normal;
-  border: 2px;
-  background: #ecf0f2;
+  border: 4px solid #FFEDBC;
+  background: transparent;
   color: $light-link-color;
+  font-weight: 500;
 }
 
 .token.comment,
