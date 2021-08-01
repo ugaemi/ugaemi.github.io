@@ -79,7 +79,7 @@ body.dark {
 
   .navigator {
     a {
-      background-color: $navigator-background-color;
+      border: 1px solid $navigator-text-color;
       color: $navigator-text-color;
     }
   }
