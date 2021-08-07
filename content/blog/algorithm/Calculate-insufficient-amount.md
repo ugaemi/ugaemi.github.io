@@ -6,6 +6,16 @@ category: 'Algorithm'
 draft: false
 ---
 
+### Contents
+- [문제](#문제)
+- [나의 풀이](#나의-풀이)
+    - [Python](#Python)
+    - [JavaScript](#JavaScript)
+    - [Go](#Go)
+- [다른 사람의 풀이](#다른-사람의-풀이)
+- [References](#References)
+
+
 ## 문제
 
 > 새로 생긴 놀이기구는 인기가 매우 많아 줄이 끊이질 않습니다.
@@ -19,10 +29,48 @@ draft: false
 
 ## 나의 풀이
 
+### Python
 ```python
 def solution(price, money, count):
     required_amount = sum(map(lambda x: x * price, range(1, count + 1)))
     return required_amount - money if required_amount > money else 0
+```
+
+### JavaScript
+```javascript
+function solution(price, money, count) {
+  let requiredAmount = 0;
+  for (let i=1; i<count+1; i++) {
+    requiredAmount += i * price;
+  }
+  return Math.abs(Math.min(money - requiredAmount, 0));
+}
+```
+
+### Go
+```go
+func Abs(x int) int {
+    if x < 0 {
+        return -x
+    }
+    return x
+}
+
+func min(a, b int) int {
+    if a < b {
+        return a
+    }
+    return b
+}
+
+func solution(price, money, count int) int {
+    requiredAmount := 0
+    for i := 1; i < count + 1; i++ {
+    	requiredAmount += i * price
+    }
+    return Abs(min(money - requiredAmount, 0))
+}
+
 ```
 
 ## 다른 사람의 풀이
