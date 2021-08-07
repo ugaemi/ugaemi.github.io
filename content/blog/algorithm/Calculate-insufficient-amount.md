@@ -79,6 +79,17 @@ def solution(price, money, count):
 
 금액에서 가지고 있는 금액을 빼고 양/음수 여부를 판단하여 리턴해주는 방법보다 두 값의 차이를 구하고 `abs`로 절대값을 반환해주면 되는 방법을 사용하는 게 더 깔끔해 보이는 것 같다.
 
+```javascript
+function solution(price, money, count) {
+    const tmp = price * count * (count + 1) / 2 - money;
+    return tmp > 0 ? tmp : 0;
+}
+```
+
+이 분은 [등차수열의 합](https://mathbang.net/609) 을 이용해서 해결하셨다. 와우!
+
+`count * (count + 1) / 2` 부분을 보면 `n(n+1)/2` 등차수열 합 공식이 보인다. 여기에 `price`를 곱해서 금액의 합을 아주 쉽게 구할 수 있었다.
+
 ## References
 
 * [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/82612)
