@@ -7,10 +7,13 @@ draft: false
 ---
 
 ### Contents
+- [개요](#개요)
 - [B+Tree 인덱스란?](#B+Tree-인덱스란?)
 - [다분기 트리와 이진 트리](#다분기-트리와-이진-트리)
 - [B+Tree와 B-Tree](#B+Tree와-B-Tree)
 - [References](#References)
+
+## 개요
 
 [웹 프로그래머를 위한 데이터베이스를 지탱하는 기술](http://www.yes24.com/Product/Goods/27893960) 도서를 읽고 B+Tree 인덱스 부분을 정리해보았다.
 
