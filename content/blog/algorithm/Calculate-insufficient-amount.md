@@ -9,9 +9,6 @@ draft: false
 ### Contents
 - [문제](#문제)
 - [나의 풀이](#나의-풀이)
-    - [Python](#Python)
-    - [JavaScript](#JavaScript)
-    - [Go](#Go)
 - [다른 사람의 풀이](#다른-사람의-풀이)
 - [References](#References)
 
