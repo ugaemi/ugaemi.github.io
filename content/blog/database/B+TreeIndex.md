@@ -8,9 +8,9 @@ draft: false
 
 ### Contents
 - [개요](#개요)
-- [B+Tree 인덱스란?](#B+Tree-인덱스란?)
+- [B+Tree 인덱스란?](#B-Tree-인덱스란?)
 - [다분기 트리와 이진 트리](#다분기-트리와-이진-트리)
-- [B+Tree와 B-Tree](#B+Tree와-B-Tree)
+- [B+Tree와 B-Tree](#B-Tree와-B-Tree)
 - [References](#References)
 
 ## 개요
@@ -21,7 +21,7 @@ draft: false
 
 ## B+Tree 인덱스란?
 
-![B+Tree Index](images/2021/index_lookup.png)
+![B+Tree Index](images/2021/Btree.jpeg)
 
 B+Tree 인덱스는 **Tree** 자료구조를 이용한 인덱스이다.
 정상이 **루트(root) 블록**, **최하층이 리프(leaf)** 블록이라고 불리며, 그 사이에 **브랜치(branch) 블록**이 들어간다.
@@ -46,9 +46,10 @@ B+Tree와 같은 다분기의 트리 구성을 취함으로써 O(log~mN)의 계�
 
 ## B+Tree와 B-Tree
 
-B-Tree라는 인덱스 구조도 있는데, 이는 모든 값을 리프 블록에서만 갖도록 제한하지 않으며 브랜치에서도 값을 가질 수 있는 데이터 구조다.
-보통의 B-Tree 인덱스에 비하면 B+Tree 인덱스는 어떠한 검색이라 할지라도 루트에서 리프까지 거치지 않으면 열의 값을 검색할 수 없다는 단점이 있다.
+![B-Tree Index](images/2021/B-Tree.png)
 
+B-Tree라는 인덱스 구조도 있는데, 이는 모든 값을 리프 블록에서만 갖도록 제한하지 않으며 브랜치에서도 값을 가질 수 있는 데이터 구조다.
+B-Tree 인덱스에 비하면 B+Tree 인덱스는 어떤 검색이라도 루트에서 리프까지 거치지 않으면 열의 값을 검색할 수 없다는 단점이 있다.
 그러나 브랜치가 보다 컴팩트하므로 인덱스 자체의 계층 구조를 작게 할 수 있다는 장점이 있다.
 즉, 최악의 경우 액세스 횟수를 줄일 수 있다는 것을 의미한다.
 
@@ -60,6 +61,18 @@ B-Tree 인덱스의 경우 리프뿐만 아니라 브랜치에서도 키 정보�
 B+Tree 인덱스를 사용하면 등호 검색은 물론 부등호나 전방 일치 검색 등의 범위 검색도 리프 블록을 스캔하는 것만으로 (브랜치를 그때마다 거쳐 나갈 필요 없이) 완결할 수 있다.
 즉, 그만큼 고속이다. 이러한 높은 유연성이 B+Tree가 널리 이용되어 온 커다란 이유다.
 
+다음은 B-Tree와 B+Tree의 차이점을 정리한 테이블이다.
+
+| 구분 | B-Tree  | B+Tree  |
+|---|---|---|
+| 데이터 포인터 위치  | 브랜치와 리프 노드 | 리프 노드 |
+| 검색 시간 | 모든 키를 리프에서 사용할 수 없기 때문에 더 많은 시간이 소요됨 | 모든 키가 리프 노드에 있으므로 더 빠름 |
+| 중복 키 | 없음 | 있을 수 있음 |
+| 삽입 시간 | 느림 | 빠름 |
+| 노드 삭제 | 어려움 | 쉬움 |
+
 ## References
 
 * [웹 프로그래머를 위한 데이터베이스를 지탱하는 기술](http://www.yes24.com/Product/Goods/27893960)
+* [PostgreSQL B-Tree Index Explained](https://www.qwertee.io/blog/postgresql-b-tree-index-explained-part-1/)
+* [Difference between B+tree and B-tree](https://www.geeksforgeeks.org/difference-between-b-tree-and-b-tree/)
