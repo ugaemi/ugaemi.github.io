@@ -72,6 +72,7 @@ func solution(price, money, count int) int {
 
 ## 다른 사람의 풀이
 
+### Python
 ```python
 def solution(price, money, count): 
     return abs(min(money - sum([price*i for i in range(1,count+1)]),0))
@@ -79,6 +80,7 @@ def solution(price, money, count):
 
 금액에서 가지고 있는 금액을 빼고 양/음수 여부를 판단하여 리턴해주는 방법보다 두 값의 차이를 구하고 `abs`로 절대값을 반환해주면 되는 방법을 사용하는 게 더 깔끔해 보이는 것 같다.
 
+### JavaScript
 ```javascript
 function solution(price, money, count) {
     const tmp = price * count * (count + 1) / 2 - money;
