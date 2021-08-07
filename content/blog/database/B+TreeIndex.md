@@ -19,9 +19,9 @@ draft: false
 
 데이터베이스의 인덱스가 어떠한 자료구조로 구현되어 있고 어떻게 검색을 하는지 알아보자.
 
-![B+Tree Index](images/2021/index_lookup.png)
-
 ## B+Tree 인덱스란?
+
+![B+Tree Index](images/2021/index_lookup.png)
 
 B+Tree 인덱스는 **Tree** 자료구조를 이용한 인덱스이다.
 정상이 **루트(root) 블록**, **최하층이 리프(leaf)** 블록이라고 불리며, 그 사이에 **브랜치(branch) 블록**이 들어간다.
