@@ -8,7 +8,8 @@ module.exports = {
     twitter: ``,
     github: `ugaemi`, // Your GitHub account
     medium: ``,
-    facebook: `100008385976768`, // Your Facebook account
+    facebook: `100071766293836`, // Your Facebook account
+    instagram: `u_gaemi.dev`,
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
