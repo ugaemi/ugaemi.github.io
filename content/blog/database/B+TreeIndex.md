@@ -21,7 +21,7 @@ draft: false
 
 ## B+Tree 인덱스란?
 
-![B+Tree Index](images/2021/Btree.jpeg)
+![B+Tree Index](images/2021/BtreeStructure.png)
 
 B+Tree 인덱스는 **Tree** 자료구조를 이용한 인덱스이다.
 정상이 **루트(root) 블록**, **최하층이 리프(leaf)** 블록이라고 불리며, 그 사이에 **브랜치(branch) 블록**이 들어간다.
@@ -45,8 +45,6 @@ O(N)과는 비교가 되지 않을 정도로 효율이 좋지만, 해시 인덱�
 B+Tree와 같은 다분기의 트리 구성을 취함으로써 O(log~mN)의 계산량이 되어 액세스 수를 크게 줄일 수 있다.
 
 ## B+Tree와 B-Tree
-
-![B-Tree Index](images/2021/B-Tree.png)
 
 B-Tree라는 인덱스 구조도 있는데, 이는 모든 값을 리프 블록에서만 갖도록 제한하지 않으며 브랜치에서도 값을 가질 수 있는 데이터 구조다.
 B-Tree 인덱스에 비하면 B+Tree 인덱스는 어떤 검색이라도 루트에서 리프까지 거치지 않으면 열의 값을 검색할 수 없다는 단점이 있다.
