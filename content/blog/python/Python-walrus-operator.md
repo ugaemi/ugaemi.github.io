@@ -1,10 +1,16 @@
 ---
-title: '🐍 Python walrus operator'
+title: '🐍 Python Walrus Operator'
 subtitle: '파이썬의 바다코끼리'
 date: 2021-09-02
 category: 'Python'
 draft: false
 ---
+
+### Contents
+- [개요](#개요)
+- [왈러스(walrus) 연산자란?](#왈러스(walrus)-연산자란?)
+- [예시](#예시)
+- [마무리](#마무리)
 
 ## 개요
 
@@ -20,7 +26,7 @@ draft: false
 
 예를 들면 if문 안에 대입식을 쓸 수 있다.
 
-## Examples
+## 예시
 
 쉬운 예시로 `a`라는 리스트의 길이가 10 이상이면 길이와 함께 리스트가 너무 길다는 문장을 출력하도록 해보자.
 
@@ -72,7 +78,7 @@ while (block := f.read(256)) != '':
  if (clean_name := normalize('NFC', name)) in allowed_names]
 ```
 
-## Conclusion
+## 마무리
 
 왈러스 연산자를 알고 나니 고칠 수 있는 코드가 많이 보인다.
 
