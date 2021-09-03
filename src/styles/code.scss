@@ -70,9 +70,9 @@ pre[class*='language-'] {
 :not(pre) > code[class*='language-'] {
   padding: .1em .3em;
   white-space: normal;
-  border-bottom: 4px solid #FFEDBC;
+  box-shadow: inset 0 -0.5rem #FFEDBC;
   background: transparent;
-  color: $light-link-color;
+  color: black;
   font-weight: 500;
 }
 
