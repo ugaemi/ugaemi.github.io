@@ -1,6 +1,6 @@
 ---
 title: '🧑🏻‍🏫 Girls In Tech X AWS 멘토링 프로그램 회고'
-subtitle: '5주간의 멘토링, 나는 무엇을 얻었나'
+subtitle: '5주간의 멘토링, 무엇을 얻었나'
 date: 2021-09-14
 category: 'Retrospect'
 draft: false
