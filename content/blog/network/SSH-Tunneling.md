@@ -10,7 +10,7 @@ draft: false
 - [개요](#개요)
 - [SSH(Secure Shell)란?](#sshsecure-shell란)
 - [SSH Tunneling이란?](#ssh-tunneling이란)
-    - [SSH Tunneling 쉘 명령어](#SSH-Tunneling-쉘-명령어)
+    - [SSH Tunneling 쉘 명령어](#ssh-tunneling-쉘-명령어)
     - [Pycharm Database SSH Tunneling 설정 방법](#pycharm-database-ssh-tunneling-설정-방법)
 - [References](#references)
 
