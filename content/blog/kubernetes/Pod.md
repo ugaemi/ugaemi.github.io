@@ -12,8 +12,6 @@ draft: false
   - [Container](#container)
   - [Label](#label)
   - [Node Schedule](#node-schedule)
-    - [직접 선택](#직접-선택)
-    - [자동 선택](#자동-선택)
 - [References](#references)
 
 ## 개요
