@@ -12,6 +12,8 @@ draft: false
   - [Container](#container)
   - [Label](#label)
   - [Node Schedule](#node-schedule)
+    - [직접 선택](#직접-선택)
+    - [자동 선택](#자동-선택)
 - [References](#references)
 
 ## 개요
@@ -65,7 +67,7 @@ spec:
 
 - Pod 뿐만 아니라 모든 Object에 달 수 있는데, 주로 Pod에서 가장 많이 사용됨
 - 목적에 따라 Object들을 분류하고 분류된 Object들만 따로 골라서 연결하기 위함
-- Keyd와 Value로 이루어짐
+- Key와 Value로 이루어짐
 - 같은 라벨을 가진 Pod들끼리 서비스로 묶어 접속 가능
 
 ```yaml
@@ -124,7 +126,7 @@ spec:
 
 - 쿠버네티스의 스케줄러가 자동으로 어느 Node에 연결할지 판단
 - Node에는 전체 사용 가능한 자원량이 있음 ex) 메모리, CPU 등
-- Pod에 자원량을 지정해두지 않으면 Node의 자원을 무한정 사용하게 됨
+- Pod에 필요한 자원량을 지정해두지 않으면 연결된 Node의 자원을 무한정 사용하게 됨
   - 나머지 Pod들이 사용할 자원이 부족해져 다같이 죽을 수 있음
   - memory: 초과 시 Pod 종료 시킴
   - cpu: 초과 시 request로 낮춤, over 시 종료되지 않음
