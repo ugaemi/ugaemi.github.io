@@ -7,7 +7,6 @@ import { Bio } from '../components/bio'
 import { Head } from '../components/head'
 import { Category } from '../components/category'
 import { Contents } from '../components/contents'
-import { ChannelService } from '../components/channeltalk'
 
 import * as ScrollManager from '../utils/scroll'
 import * as Storage from '../utils/storage'
@@ -53,21 +52,6 @@ export default ({ data, location }) => {
     IOManager.refreshObserver()
     Storage.setCount(count)
     Storage.setCategory(category)
-  })
-
-  useEffect(() => {
-    const channelService = new ChannelService();
-
-    return () => {
-      channelService.boot({
-        "pluginKey": "615a3fc9-f482-41f6-a671-06abc6cc2c86",
-        "profile": {
-          "name": "개미",
-          "email": "u.gaemi@gmail.com",
-          "github": "https://github.com/ugaemi"
-        }
-      })
-    }
   })
 
   const selectCategory = category => {

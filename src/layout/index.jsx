@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { Top } from '../components/top'
 import { Header } from '../components/header'
@@ -10,6 +10,21 @@ import './index.scss'
 
 export const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
+
+  useEffect(() => {
+    const channelService = new ChannelService();
+
+    return () => {
+      channelService.boot({
+        "pluginKey": "615a3fc9-f482-41f6-a671-06abc6cc2c86",
+        "profile": {
+          "name": "개미",
+          "email": "u.gaemi@gmail.com",
+          "github": "https://github.com/ugaemi"
+        }
+      })
+    }
+  })
 
   return (
     <React.Fragment>
