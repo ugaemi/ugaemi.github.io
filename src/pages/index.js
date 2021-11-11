@@ -56,6 +56,17 @@ export default ({ data, location }) => {
     Storage.setCategory(category)
   })
 
+  useEffect(() => {
+    channelService.boot({
+      "pluginKey": "615a3fc9-f482-41f6-a671-06abc6cc2c86",
+      "profile": {
+        "name": "개미",
+        "email": "u.gaemi@gmail.com",
+        "github": "https://github.com/ugaemi"
+      }
+    })
+  })
+
   const selectCategory = category => {
     setCategory(category)
     ScrollManager.go(DEST_POS)
@@ -72,15 +83,6 @@ export default ({ data, location }) => {
       triggerCondition: () => isTriggerPos() && doesNeedMore(),
     })()
   }
-
-  channelService.boot({
-    "pluginKey": "615a3fc9-f482-41f6-a671-06abc6cc2c86",
-    "profile": {
-      "name": "개미",
-      "email": "u.gaemi@gmail.com",
-      "github": "https://github.com/ugaemi"
-    }
-  });
 
   return (
     <Layout location={location} title={siteMetadata.title}>
