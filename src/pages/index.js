@@ -37,9 +37,6 @@ export default ({ data, location }) => {
   const categories = _.uniq(posts.map(({ node }) => node.frontmatter.category))
   const channelService = new ChannelService();
 
-  const channelTalkPluginKey = process.env.REACT_APP_CHANNEL_TALK_PLUGIN_KEY;
-  const channelTalkAccessSecret = process.env.REACT_APP_CHANNEL_TALK_ACCESS_SECRET;
-
   useEffect(() => {
     window.addEventListener(`scroll`, onScroll, { passive: false })
     IOManager.init()
@@ -77,7 +74,7 @@ export default ({ data, location }) => {
   }
 
   channelService.boot({
-    "pluginKey": channelTalkPluginKey,
+    "pluginKey": "615a3fc9-f482-41f6-a671-06abc6cc2c86",
     "profile": {
       "name": "개미",
       "email": "u.gaemi@gmail.com",
