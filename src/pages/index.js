@@ -35,7 +35,6 @@ export default ({ data, location }) => {
   const { countOfInitialPost } = siteMetadata.configs
   const posts = data.allMarkdownRemark.edges
   const categories = _.uniq(posts.map(({ node }) => node.frontmatter.category))
-  const channelService = new ChannelService();
 
   useEffect(() => {
     window.addEventListener(`scroll`, onScroll, { passive: false })
@@ -57,14 +56,18 @@ export default ({ data, location }) => {
   })
 
   useEffect(() => {
-    channelService.boot({
-      "pluginKey": "615a3fc9-f482-41f6-a671-06abc6cc2c86",
-      "profile": {
-        "name": "개미",
-        "email": "u.gaemi@gmail.com",
-        "github": "https://github.com/ugaemi"
-      }
-    })
+    const channelService = new ChannelService();
+
+    return () => {
+      channelService.boot({
+        "pluginKey": "615a3fc9-f482-41f6-a671-06abc6cc2c86",
+        "profile": {
+          "name": "개미",
+          "email": "u.gaemi@gmail.com",
+          "github": "https://github.com/ugaemi"
+        }
+      })
+    }
   })
 
   const selectCategory = category => {
