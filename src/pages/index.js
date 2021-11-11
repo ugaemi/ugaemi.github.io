@@ -7,6 +7,7 @@ import { Bio } from '../components/bio'
 import { Head } from '../components/head'
 import { Category } from '../components/category'
 import { Contents } from '../components/contents'
+import { ChannelService } from '../components/channeltalk'
 
 import * as ScrollManager from '../utils/scroll'
 import * as Storage from '../utils/storage'
@@ -34,6 +35,10 @@ export default ({ data, location }) => {
   const { countOfInitialPost } = siteMetadata.configs
   const posts = data.allMarkdownRemark.edges
   const categories = _.uniq(posts.map(({ node }) => node.frontmatter.category))
+  const channelService = new ChannelService();
+
+  const channelTalkPluginKey = process.env.REACT_APP_CHANNEL_TALK_PLUGIN_KEY;
+  const channelTalkAccessSecret = process.env.REACT_APP_CHANNEL_TALK_ACCESS_SECRET;
 
   useEffect(() => {
     window.addEventListener(`scroll`, onScroll, { passive: false })
@@ -70,6 +75,15 @@ export default ({ data, location }) => {
       triggerCondition: () => isTriggerPos() && doesNeedMore(),
     })()
   }
+
+  channelService.boot({
+    "pluginKey": channelTalkPluginKey,
+    "profile": {
+      "name": "개미",
+      "email": "u.gaemi@gmail.com",
+      "github": "https://github.com/ugaemi"
+    }
+  });
 
   return (
     <Layout location={location} title={siteMetadata.title}>
