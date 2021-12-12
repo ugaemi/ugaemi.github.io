@@ -18,6 +18,16 @@ export const TableOfContents = ({items, currentHeaderUrl}) => {
       <div
         className='contents'
         dangerouslySetInnerHTML={{__html: replaceItems}}
+        style={{
+          '& ul': {
+            marginLeft: '20px',
+          },
+          [`& ul > li a[href*="${currentHeaderUrl}"]`]: {
+            fontSize: '15px',
+            color: '#333333',
+            fontWeight: '600',
+          },
+        }}
       />
     </nav>
   ) : null;

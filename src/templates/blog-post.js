@@ -35,13 +35,17 @@ export default ({data, pageContext, location}) => {
     <Layout location={location} title={title}>
       <Head title={post.frontmatter.title} description={post.excerpt}/>
       <PostTitle title={post.frontmatter.title}/>
-      {isTOCVisible &&
-      <div style={{
-        position: 'absolute', top: 120, height: '100%', right: 'calc((100vw - 90%) / 2 * (-1))',
-      }}>
-        <TableOfContents items={post.tableOfContents} currentHeaderUrl={post.currentHeaderUrl}/>
-      </div>}
-      <PostContainer html={post.html}/>
+      <div>
+        {isTOCVisible &&
+        <div style={{
+          position: 'absolute', top: 0, height: '90%', right: 'calc((100vw - 90%) / 2 * (-1))',
+        }}>
+          <TableOfContents items={post.tableOfContents} currentHeaderUrl={post.currentHeaderUrl}/>
+        </div>}
+        <div>
+          <PostContainer html={post.html}/>
+        </div>
+      </div>
       <SocialShare title={post.frontmatter.title} author={author}/>
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId}/>
