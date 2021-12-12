@@ -8,7 +8,7 @@ module.exports = {
       options: {
         host: `http://ugaemi.com`,
         sitemap: `http://ugaemi.com/sitemap.xml`,
-        policy: [{ userAgent: '*', allow: '/' }],
+        policy: [{userAgent: '*', allow: '/'}],
       },
     },
     {
@@ -36,6 +36,15 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              className: `anchor-header`,
+              maintainCase: false,
+              removeAccents: true,
+              elements: [`h2`, 'h3', `h4`],
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

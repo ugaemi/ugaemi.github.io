@@ -10,12 +10,12 @@ const metaConfig = require('./gatsby-meta-config')
 exports.onInitialClientRender = () => {
   if (metaConfig.share.facebookAppId) {
     window.fbAsyncInit = function() {
-      FB.init({
-        appId: metaConfig.share.facebookAppId,
-        xfbml: true,
-        version: 'v3.2',
-      })
-      FB.AppEvents.logPageView()
+      // FB.init({
+      //   appId: metaConfig.share.facebookAppId,
+      //   xfbml: true,
+      //   version: 'v3.2',
+      // })
+      // FB.AppEvents.logPageView()
     }
     ;(function(d, s, id) {
       var js,

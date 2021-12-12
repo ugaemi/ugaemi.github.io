@@ -24,7 +24,7 @@ module.exports = {
     buyMeACoffeeId: `6SdTJ2r`,
   },
   share: {
-    facebookAppId: `1240894782751179`, // Add facebookAppId for using facebook share feature v3.2
+    facebookAppId: ``, // 1240894782751179
   },
   ga: `UA-146605667-1`,
 }

@@ -29,6 +29,8 @@ export default ({ data, location }) => {
   const [count, setCount] = useState(initialCount)
   const countRef = useRef(count)
   const [category, setCategory] = useState(initialCategory)
+  const HEADER_OFFSET_Y = 100;
+  const [currentHeaderUrl, setCurrentHeaderUrl] = useState(undefined);
 
   const { siteMetadata } = data.site
   const { countOfInitialPost } = siteMetadata.configs
@@ -53,6 +55,32 @@ export default ({ data, location }) => {
     Storage.setCount(count)
     Storage.setCategory(category)
   })
+
+  useEffect(() => {
+    const handleScroll = () => {
+      let aboveHeaderUrl;
+      const currentOffsetY = window.pageYOffset;
+      const headerElements = document.querySelectorAll('.anchor-header');
+      for (const elem of headerElements) {
+        const { top } = elem.getBoundingClientRect();
+        const elemTop = top + currentOffsetY;
+        const isLast = elem === headerElements[headerElements.length - 1];
+        if (currentOffsetY < elemTop - HEADER_OFFSET_Y) {
+          aboveHeaderUrl &&
+          setCurrentHeaderUrl(aboveHeaderUrl.split(location.origin)[1]);
+          !aboveHeaderUrl && setCurrentHeaderUrl(undefined);
+          break;
+        } else {
+          isLast && setCurrentHeaderUrl(elem.href.split(location.origin)[1]);
+          !isLast && (aboveHeaderUrl = elem.href);
+        }
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const selectCategory = category => {
     setCategory(category)
