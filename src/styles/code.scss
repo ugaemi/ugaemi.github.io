@@ -149,3 +149,7 @@ pre[class*='language-'] {
 .token.inserted {
   color: green;
 }
+
+.anchor.before svg {
+  display: none;
+}
