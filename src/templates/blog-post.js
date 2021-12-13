@@ -36,12 +36,12 @@ export default ({data, pageContext, location}) => {
       <Head title={post.frontmatter.title} description={post.excerpt}/>
       <PostTitle title={post.frontmatter.title}/>
       <div>
-        {isTOCVisible &&
-        <div style={{
-          position: 'absolute', top: 0, height: '90%', right: 'calc((100vw - 90%) / 2 * (-1))',
-        }}>
-          <TableOfContents items={post.tableOfContents} currentHeaderUrl={post.currentHeaderUrl}/>
-        </div>}
+        {/*{isTOCVisible &&*/}
+        {/*<div style={{*/}
+        {/*  position: 'absolute', top: 0, height: '90%', right: 'calc((100vw - 90%) / 2 * (-1))',*/}
+        {/*}}>*/}
+        {/*  <TableOfContents items={post.tableOfContents} currentHeaderUrl={post.currentHeaderUrl}/>*/}
+        {/*</div>}*/}
         <div>
           <PostContainer html={post.html}/>
         </div>
