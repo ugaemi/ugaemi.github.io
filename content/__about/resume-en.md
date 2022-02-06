@@ -12,7 +12,8 @@ lang: 'en'
 
 ### 💼 Career
 
-- [PlusX](https://plus-ex.com/) DX Team Back-end Developer (2020.01 ~ )
+- [WantedLab](https://www.wantedlab.com/) HR Solution Team Python Developer (2021.09 ~ )
+- [PlusX](https://plus-ex.com/) DX Team Back-end Developer (2020.01 ~ 2021.08)
 - [GANCO](https://airwafi.com) Back-end Developer (2019.03 ~ 2019.08)
 
 ### 🐣 Internship
