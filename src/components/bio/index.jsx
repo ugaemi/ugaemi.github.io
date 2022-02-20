@@ -45,7 +45,7 @@ export const Bio = () => (
                       😎 Facebook
                     </a>
                   )}
-                  <a href={`https://www.notion.so/ugaemi/8df0bc3a2f26430d9c72abe1a339ff3f?v=4091e84a508e4d0d9d84e57a04c144c1`}>📚 Reading Space</a>
+                  <a href={`https://www.notion.so/ugaemi/Reading-Space-925caa56280a4f5a944a81fb90bbe327`}>📚 Reading Space</a>
                 </p>
               </div>
             </div>
