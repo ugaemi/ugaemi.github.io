@@ -13,6 +13,9 @@ jobs:
       - name: yarn install
         run: yarn install
 
+      - name: yarn install -std=c++17
+        run: yarn install -std=c++17
+
       - name: gatsby build
         env:
           GH_API_KEY: ${{ secrets.GITHUB_API_KEY }}
