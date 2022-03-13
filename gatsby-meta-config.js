@@ -24,7 +24,7 @@ module.exports = {
     buyMeACoffeeId: ``,
   },
   share: {
-    facebookAppId: `100071766293836`, // 1240894782751179
+    facebookAppId: ``, // 1240894782751179
   },
   ga: `UA-146605667-1`,
 }
