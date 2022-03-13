@@ -9,7 +9,7 @@ module.exports = {
     github: `ugaemi`, // Your GitHub account
     medium: ``,
     facebook: `100071766293836`, // Your Facebook account
-    instagram: `u_gaemi.dev`,
+    instagram: `u_gaemi`,
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
@@ -21,10 +21,10 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: `6SdTJ2r`,
+    buyMeACoffeeId: ``,
   },
   share: {
-    facebookAppId: ``, // 1240894782751179
+    facebookAppId: `100071766293836`, // 1240894782751179
   },
   ga: `UA-146605667-1`,
 }
