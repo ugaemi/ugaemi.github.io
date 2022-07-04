@@ -20,6 +20,7 @@ jobs:
         run: yarn build
 
       - uses: peaceiris/actions-gh-pages@v2
+        run: git config --global init.defaultBranch master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
