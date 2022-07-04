@@ -8,19 +8,22 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      - name: Install dependencies
+      - name: yarn install
         run: yarn install
 
-      - name: Build
+      - name: gatsby build
+        env:
+          GH_API_KEY: ${{ secrets.GITHUB_API_KEY }}
         run: yarn build
 
-      - uses: peaceiris/actions-gh-pages@v2
+      - name: deploy
+        uses: maxheld83/ghpages@v0.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+          GH_PAT: ${{ secrets.GITHUB_API_KEY }}
+          BUILD_DIR: 'public/'
