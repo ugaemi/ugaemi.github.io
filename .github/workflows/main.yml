@@ -1,34 +1,28 @@
-name: github pages
-
 on:
   push:
     branches:
       - main
 
+name: build gatsby
+
 jobs:
-  deploy:
-    runs-on: ubuntu-18.04
+  build_gatsby:
+    name: build
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup Node
-        uses: actions/setup-node@v2.1.2
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '14.17.5'
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+      - name: Install dependencies
+        run: yarn install
 
-      - run: npm ci
-      - run: npm run build
+      - name: Build
+        run: yarn build
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
