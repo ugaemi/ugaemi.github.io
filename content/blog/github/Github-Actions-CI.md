@@ -42,7 +42,7 @@ class ExampleAPITest(APITransactionTestCase):
 
 ## actions workflows 만들기
 
-내가 구축하려 한 CI 프로세스는 간단하다.
+내가 구축하려 한 프로세스는 간단하다.
 누군가 PR(Pull Request)을 올리거나 오픈된 PR에 Push를 하면 actions workflows를 통해 스크립트를 돌고 테스트가 성공하면 슬랙으로 성공했다는 메시지를 보내고 머지 버튼을 활성화시키는 방식이다.
 
 우선 프로젝트 root 하위에 `.github` 폴더를 만들고 그 하위에 `workflows` 폴더를 만든다.
