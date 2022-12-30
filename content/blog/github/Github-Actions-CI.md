@@ -1,16 +1,10 @@
 ---
-title: '🐱 github actions를 활용한 CI 프로세스 도입기'
-subtitle: '테스트 자동화'
+title: '🐱 github actions를 활용한 테스트 자동화'
+subtitle: '내가 테스트코드를 작성하는 이유'
 date: 2022-02-06
 category: 'Github'
 draft: false
 ---
-
-## CI(Continuous Integration, 지속적 통합)란?
-
-> [소프트웨어 공학](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B3%B5%ED%95%99) 에서, **지속적 통합**(continuous integration, CI)은 지속적으로 [품질 관리](https://ko.wikipedia.org/wiki/%ED%92%88%EC%A7%88_%EA%B4%80%EB%A6%AC) (Quality Control) 를 적용하는 프로세스를 실행하는 것이다. - 작은 단위의 작업, 빈번한 적용. 지속적인 통합은 모든 개발을 완료한 뒤에 [품질 관리](https://ko.wikipedia.org/wiki/%ED%92%88%EC%A7%88_%EA%B4%80%EB%A6%AC) 를 적용하는 고전적인 방법을 대체하는 방법으로서 소프트웨어의 질적 향상과 소프트웨어를 배포하는데 걸리는 시간을 줄이는데 초점이 맞추어져 있다. - 위키백과
-
-이번 포스팅에서는 팀에 CI 프로세스를 추천 및 도입하고 github acitons를 활용해 환경을 구성해 본 과정을 공유하려 한다.
 
 # 개요
 
