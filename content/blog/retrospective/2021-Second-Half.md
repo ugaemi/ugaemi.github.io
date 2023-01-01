@@ -2,7 +2,7 @@
 title: '🌴 2021 하반기 회고'
 subtitle: '시간 참 빠르군'
 date: 2022-01-09
-category: 'Retrospect'
+category: 'Retrospective'
 draft: false
 ---
 

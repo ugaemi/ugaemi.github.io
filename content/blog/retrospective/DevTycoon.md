@@ -2,7 +2,7 @@
 title: '😭 DevTycoon 스터디 회고'
 subtitle: '첫 스터디의 마지막 장'
 date: 2019-08-03
-category: 'Retrospect'
+category: 'Retrospective'
 draft: false
 ---
 

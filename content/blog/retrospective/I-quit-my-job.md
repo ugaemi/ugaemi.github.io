@@ -2,7 +2,7 @@
 title: '🤯 첫 회사를 5개월만에 그만두었다'
 subtitle: '개발 1년차 뉴비의 스타트업 탈출기'
 date: 2019-08-21
-category: 'Retrospect'
+category: 'Retrospective'
 draft: false
 ---
 

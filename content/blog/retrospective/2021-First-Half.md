@@ -2,7 +2,7 @@
 title: '🐝 2021 상반기 회고'
 subtitle: '정신차리기 위한 포스팅'
 date: 2021-06-28
-category: 'Retrospect'
+category: 'Retrospective'
 draft: false
 ---
 

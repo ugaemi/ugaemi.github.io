@@ -2,7 +2,7 @@
 title: '🍀 친구들과 함께 한 일일 커밋 회고'
 subtitle: '칙칙한 아스팔트를 잔디밭으로 꾸미기'
 date: 2019-11-03
-category: 'Retrospect'
+category: 'Retrospective'
 draft: false
 ---
 
