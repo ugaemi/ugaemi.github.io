@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>http://ugaemi.com/retrospective/2022/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Merge-K-Sorted-Lists/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/github/Github-Actions-CI/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/2021-Second-Half/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/2021-Second-Half/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/aws/ELB-ACM-SSL/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/kubernetes/Pod/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/network/SSH-Tunneling/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/GIT-AWS-Mentoring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/GIT-AWS-Mentoring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/python/Python-walrus-operator/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/database/B+TreeIndex/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Calculate-insufficient-amount/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/python/Python-json-pickle-marshal/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/ReverseInteger/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/2021-First-Half/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/2021-First-Half/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/gtm/GTM-EE-Product-Detail/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/gtm/GTM-EE-Product-Impressions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/2020/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/2020/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Consecutive-characters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Teemo-Attacking/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/3sum/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -23,9 +24,9 @@
 <url> <loc>http://ugaemi.com/django/Form-patterns/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/django/Basic-of-django-form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/django/Best-use-of-CBV/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/2019/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/2019/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/aws/Elasticbeanstalk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/Daily-Commit-1-Month/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/Daily-Commit-1-Month/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/django/Django-crontab/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/tdd/TDD-csrf-token/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/django/Django-reverse-and-resolve/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -42,13 +43,13 @@
 <url> <loc>http://ugaemi.com/algorithm/Is-sqrt/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/tdd/Django-server-test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Care-string/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/I-quit-my-job/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/I-quit-my-job/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Subdivided-array/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Gymsuit/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Find-Kim/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Get-middle-string/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/algorithm/Mok-exam/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospect/DevTycoon/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ugaemi.com/retrospective/DevTycoon/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/slack/Deploy-simple-slack-bot/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
