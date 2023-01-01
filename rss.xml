@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개미의 개발노트]]></title><description><![CDATA[ugaemi's dev note]]></description><link>http://ugaemi.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Jan 2023 15:11:32 GMT</lastBuildDate><item><title><![CDATA[🚤 2022 회고]]></title><description><![CDATA[202…]]></description><link>http://ugaemi.com/retrospective/2022/</link><guid isPermaLink="false">http://ugaemi.com/retrospective/2022/</guid><pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2022년은 전반적으로 무난한 해였다. 라고 말할 수 있는건 예상에 없던 크고 작은 이벤트들을 경험했지만 어느 때보다 더욱 나에게 집중하고 중심을 잃지 않으려고 노력했기 때문이라고 생각한다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개미의 개발노트]]></title><description><![CDATA[ugaemi's dev note]]></description><link>http://ugaemi.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Jan 2023 15:36:09 GMT</lastBuildDate><item><title><![CDATA[🚤 2022 회고]]></title><description><![CDATA[202…]]></description><link>http://ugaemi.com/retrospective/2022/</link><guid isPermaLink="false">http://ugaemi.com/retrospective/2022/</guid><pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2022년은 전반적으로 무난한 해였다. 라고 말할 수 있는건 예상에 없던 크고 작은 이벤트들을 경험했지만 어느 때보다 더욱 나에게 집중하고 중심을 잃지 않으려고 노력했기 때문이라고 생각한다.
 분명 내면의 성장을 이뤄낸 갚진 시간들이 있었고 지금의 나는 과거의 나보다 훨씬 단단해졌다는 것을 느낀다.&lt;/p&gt;
 &lt;p&gt;그래서 어느때보다 가벼운! 마음으로 작년 한 해 이슈들을 차근차근 적어보려고 한다.&lt;/p&gt;
 &lt;h2 id=&quot;미라클-러닝&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AF%B8%EB%9D%BC%ED%81%B4-%EB%9F%AC%EB%8B%9D&quot; aria-label=&quot;미라클 러닝 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%AF%B8%EB%9D%BC%ED%81%B4-%EB%9F%AC%EB%8B%9D&quot; aria-label=&quot;미라클 러닝 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;미라클 러닝&lt;/h2&gt;
@@ -203,6 +203,66 @@ RDB를 대부분 기본 데이터베이스 기술 스택으로 사용해왔지�
 &lt;p&gt;간만에 다녀온 일본은 여전히 좋았다.
 디즈니씨의 화려한 풍경과 도쿄역의 츠케멘이 가장 기억에 남는다.
 앞으로는 자주 해외를 나갈 기회가 있었으면 좋겠다.&lt;/p&gt;
+&lt;h2 id=&quot;우리집-소도서관&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B0%EB%A6%AC%EC%A7%91-%EC%86%8C%EB%8F%84%EC%84%9C%EA%B4%80&quot; aria-label=&quot;우리집 소도서관 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EC%9A%B0%EB%A6%AC%EC%A7%91-%EC%86%8C%EB%8F%84%EC%84%9C%EA%B4%80&quot; aria-label=&quot;우리집 소도서관 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;우리집 소도서관&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 87.16216216216216%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEkklEQVQ4yyWU21MTRhSH89Dxydp26psP2k5t8VYtt6KiApqEO6QBYohAwiUhCCRAwp0kQICEe24k4ZIQIYIIAoKU2k7R2mptnbFjb9O/5uvWPuzs7O7sOb9zvt+u5IeDx1isFuoNdbSZG+nt7WHc5WRxboborB9rczVjgxaigWG8g73M+TuJLXgYHrBxS62gzWSgr6OZzlYjbS0NSF4+P6DVYqGhoZ6tZR+eYAiHc4h4JMjyYhiXvY3ghI1YcIyJ2x1Mu80MDFgZdztRq4qRyzK5mp5GdeVNTE16JK9/fUazqZkGYwOrYTvTY8M4R8YIeEZZmA3Q39WEx9XNYngIV20zUyNNdIi9yTEnJ0+e4J1Dhzh85F0STp+iquImkj9ev8Bht2G1WJke7cEmSvZ5vTza2WI1HhOKbKzFfGysThIe7OP+8ijjEw48Uy4RoJSMa5fJyrxCbbWG5kYDkr9EwN3tDXa213jwYJ2tzQ2+3X/IT88O+GZvm9mgh8X5ANG5AJF5v1hPikQRvFNuervbsPe147B14hqyMTrSj+Sf33/BNTJAXXU55kYd/d3NDDus+CedROdnkN1IpzD3OiplDpXqYkqLr+ObGhHqlHx8/AMuf3mKPGkqOTcuUV9X+X9Av28Sfa2GlsYq+trrBVUrs15BeiFIUb4MnTobY22ZGBq0Kikb8XHM2iJkZ96j9NIxVBePkX31c9otTf8FfEk45KG920xg2kkkNMT8zBDb6zFCoSC3ysswGxUUCJqK7ExSLpxj0tVJrUZOTvqnZKSepCbxM0oykqio0iD5+81zopEw3aIX4cAoS5ExoiE3e9v3mPF50aiVmJu0FEhlZKQli3Ge2MwAFTezUBcmUJB9gZ78K5RkpaAqVwsov/1IfDmK3dHBYsTDfGhYKB3gxdN9/J5pLqWfxdapJVcqJy01iZTEBLxjVopzE6lUnkVflUyHVoZC9FFXW4PkzasD9nY3mZvzinmN/d04K8tB/nzzkp2dbcpU+QR8XejrtGhuaQS4ErbujWBubaChScegXY1zyIy9vYYhp6D86vljvnv8NQG/lxn/JJE5P3eiobdWebi1xtSEC7fLgdcjlPvcYj0gWhTEKTzZYjLSYTXT29WCtfU2I8MOJD8/ecT6/VV0Oi01Og0N+ko6LOKwv52l2CxFxTkoi6XCVqU0GjXoKpX4fBPCNmVkXUul9Cs5pQo5igIpfr8Hyd6DO+JVbIq3bMRo0GKorcDUWCuymojHFygrUaDSFAk4eVSrS+jpVOIetdPXZSH5/DkKC6VYDJWc/ugEd5aXkETDE+w+3HirUFeloqmxjqLCPI4e/ZCVlSilyq+o0Guor9dQrlCKsnVMTNgZdHSTceUiOcJKc6IdCcc/YeluHInb2cnG/WVkchlpF5PJLc4nLS2F948cFqD8ZMulaKrVaCoLKcktYD5iYHzKJmB0kivPRCq9Sszn4nzCGVZW7yKxtOiZFxcVimsiWxKFigKSU5JJTPqCEdcQJtNteu1d4gfqwTXQz97+DOubSxj11RTk5VCl1RCedNNSb+Dpk+/5Fz+tK0eN/perAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;소도서관&quot;
+        title=&quot;소도서관&quot;
+        src=&quot;/static/6aab2f65bed6ba4319c5a89364a28686/fcda8/13.png&quot;
+        srcset=&quot;/static/6aab2f65bed6ba4319c5a89364a28686/12f09/13.png 148w,
+/static/6aab2f65bed6ba4319c5a89364a28686/e4a3f/13.png 295w,
+/static/6aab2f65bed6ba4319c5a89364a28686/fcda8/13.png 590w,
+/static/6aab2f65bed6ba4319c5a89364a28686/efc66/13.png 885w,
+/static/6aab2f65bed6ba4319c5a89364a28686/c83ae/13.png 1180w,
+/static/6aab2f65bed6ba4319c5a89364a28686/bf286/13.png 1688w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;올해는 다른 때보다 유독 책을 많이 읽었다. 독서가 취미인 분들에 비교할 바는 안되지만, 내 기준에서는 꽤 읽었다.&lt;/p&gt;
+&lt;p&gt;그 중 인상깊게 읽은 책 5권과 한줄평을 남긴다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;죽음의 수용소에서 (빅터 프랭클)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;의지만 있다면 아우슈비츠 수용소에서도 한줄기 빛을 볼 수 있다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;일의 격 (신수정)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;프로가 지녀야 할 태도의 모든 것&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;돈의 심리학 (모건 하우절)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;돈을 바라보는 새로운 시각&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;일의 기쁨과 슬픔 (장류진)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;에피소드 하나하나 깊은 생각을 하게 하는 클리셰 없는 단편 소설 모음집&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;파이썬 코딩의 기술 (브렛 슬라킨)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬을 사용한다면 반드시 읽어야 할 꿀팁 기술서&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이외에 내가 읽은 책 리스트는 &lt;a href=&quot;https://www.notion.so/ugaemi/Reading-Space-925caa56280a4f5a944a81fb90bbe327&quot;&gt;Reading Space&lt;/a&gt; 페이지를 통해 확인할 수 있다.&lt;/p&gt;
 &lt;h2 id=&quot;기대되는-2023년&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%8C%80%EB%90%98%EB%8A%94-2023%EB%85%84&quot; aria-label=&quot;기대되는 2023년 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EA%B8%B0%EB%8C%80%EB%90%98%EB%8A%94-2023%EB%85%84&quot; aria-label=&quot;기대되는 2023년 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기대되는 2023년&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
