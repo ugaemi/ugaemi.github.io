@@ -10,7 +10,7 @@ Spring에서 Controller 작성 시 `@RequestParam`과 `@ResponseBody` 어노테�
 
 ## @RequestParam
 
-API 호출 시 QueryString으로 받을 Parameter를 정의한다.
+QueryString으로 받을 Parameter를 정의하는 어노테이션이다.
 
 ```java
 public @interface RequestParam {
