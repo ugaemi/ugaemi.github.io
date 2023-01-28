@@ -27,7 +27,6 @@
 <url> <loc>http://ugaemi.com/django/Best-use-of-CBV/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/retrospective/2019/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/aws/Elasticbeanstalk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ugaemi.com/retrospective/Daily-Commit-1-Month/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/django/Django-crontab/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/tdd/TDD-csrf-token/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ugaemi.com/django/Django-reverse-and-resolve/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
