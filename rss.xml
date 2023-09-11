@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개미의 개발노트]]></title><description><![CDATA[ugaemi's dev note]]></description><link>http://ugaemi.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 26 Feb 2023 04:31:14 GMT</lastBuildDate><item><title><![CDATA[🧑🏻‍🏫 개발자 퍼스널 브랜딩 후기]]></title><description><![CDATA[Contents 나는 누구인가? 개발자 퍼스널 브랜딩 워크숍 1주차 2주차 3주차 4주차 5주차…]]></description><link>http://ugaemi.com/retrospective/Developer-Personal-Mentoring/</link><guid isPermaLink="false">http://ugaemi.com/retrospective/Developer-Personal-Mentoring/</guid><pubDate>Sat, 18 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#contents&quot; aria-label=&quot;contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#contents&quot; aria-label=&quot;contents permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Contents&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개미의 개발노트]]></title><description><![CDATA[ugaemi's dev note]]></description><link>http://ugaemi.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Sep 2023 05:48:13 GMT</lastBuildDate><item><title><![CDATA[🧑🏻‍🏫 개발자 퍼스널 브랜딩 후기]]></title><description><![CDATA[Contents 나는 누구인가? 개발자 퍼스널 브랜딩 워크숍 1주차 2주차 3주차 4주차 5주차…]]></description><link>http://ugaemi.com/retrospective/Developer-Personal-Mentoring/</link><guid isPermaLink="false">http://ugaemi.com/retrospective/Developer-Personal-Mentoring/</guid><pubDate>Sat, 18 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#contents&quot; aria-label=&quot;contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#contents&quot; aria-label=&quot;contents permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Contents&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#%EB%82%98%EB%8A%94-%EB%88%84%EA%B5%AC%EC%9D%B8%EA%B0%80&quot;&gt;나는 누구인가?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -15,7 +15,7 @@
 &lt;li&gt;&lt;a href=&quot;#%EC%86%8C%EA%B0%90&quot;&gt;소감&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;나는-누구인가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%82%98%EB%8A%94-%EB%88%84%EA%B5%AC%EC%9D%B8%EA%B0%80&quot; aria-label=&quot;나는 누구인가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%82%98%EB%8A%94-%EB%88%84%EA%B5%AC%EC%9D%B8%EA%B0%80&quot; aria-label=&quot;나는 누구인가 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;나는 누구인가?&lt;/h2&gt;
-&lt;p&gt;문장 그 자체로 바라보자면 ‘태어나서 지금까지 내 몸과 영혼으로 살아온 나는 도대체 누구인가’에 대해 아주 수월하게 대답할 수 있어야 하는게 어찌 보면 당연하다.
+&lt;p&gt;문장 그 자체만으로 바라보면 위 질문에 대해 아주 수월하게 대답할 수 있어야 하는게 당연하다.
 이 심플한 질문을 받은 사람은 가족도 친구도 제삼자도 아닌 나, 본인이기 때문이다.
 하지만 나를 비롯한 대부분 사람들은 간단히 자기소개를 하기도 어려워한다.&lt;/p&gt;
 &lt;p&gt;그럼, 주제를 조금 더 좁혀보자.
@@ -41,7 +41,7 @@
 사실 이런 생각을 진지하게 해볼 수 있었던 시작은 개발자 퍼스널 브랜딩 워크숍이었다.&lt;/p&gt;
 &lt;h2 id=&quot;개발자-퍼스널-브랜딩-워크숍&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%8D%BC%EC%8A%A4%EB%84%90-%EB%B8%8C%EB%9E%9C%EB%94%A9-%EC%9B%8C%ED%81%AC%EC%88%8D&quot; aria-label=&quot;개발자 퍼스널 브랜딩 워크숍 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%8D%BC%EC%8A%A4%EB%84%90-%EB%B8%8C%EB%9E%9C%EB%94%A9-%EC%9B%8C%ED%81%AC%EC%88%8D&quot; aria-label=&quot;개발자 퍼스널 브랜딩 워크숍 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;개발자 퍼스널 브랜딩 워크숍&lt;/h2&gt;
 &lt;p&gt;어쩌다 보니 프로 이직러..로서 이력서 업데이트와 면접은 나에게 연 행사와 같았다.
-레드오션 채용 시장에서 좀 더 매력적으로 나를 어필할 방법이 무엇일까 고민하던 중에 지인(이하 주현님)에게서 개발자 퍼스널 브랜딩 워크숍 페이지 링크를 건네받게 되었다.&lt;/p&gt;
+레드오션 채용 시장에서 좀 더 매력적으로 나를 어필할 방법이 무엇일까 고민하던 중에 지인으로부터 개발자 퍼스널 브랜딩 워크숍 페이지 링크를 건네받게 되었다.&lt;/p&gt;
 &lt;p&gt;퍼스널 브랜딩을 워크숍까지 참여하면서 해야 하나라는 생각이 잠시 스쳤지만, 브랜딩의 중요성을 누구보다 잘 알고 잘 하는 프로분들에게 조언을 받으면 고민할 시간이 반으로 줄어들지 않을까? 해서 수강 알림 대기를 해두었다.
 얼마 지나지 않아 과정 오픈 메일을 받게 되었고 또 잠시 고민하는 시간을 가졌지만 신청한다고 무조건 참여할 수 있는 것도 아니었기에 잊고 살고 있었다.&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -68,7 +68,7 @@
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;운이 좋게도 나와 주현님 모두 1기 참여 인원으로 선발되었다.
+&lt;p&gt;운이 좋게도 1기 참여 인원으로 선발되었다.
 총 6주로 구성된 프로그램은 매주 수요일 저녁 7시부터 약 2시간가량 진행되었다.&lt;/p&gt;
 &lt;p&gt;그동안의 워크숍 진행 방식과 간단한 후기를 남겨보려고 한다.
 6주 전의 일을 다시 꺼내어 쓰려고 하니 기억이 흐릿하다.
@@ -136,30 +136,6 @@
 &lt;p&gt;첫 번째 질문에 대해서는 그중에 집중하고 싶은 대외활동을 하나 선정해서 꾸준히 해보는 것이었는데, 가장 진입장벽이 낮기도 하고 꾸준히 하기 쉬운(?) 블로그를 선택했다.
 글감을 찾기 어렵다면 &lt;strong&gt;매일 있었던 일들을 짧게라도 노트에 작성해보는 방법&lt;/strong&gt;을 추천해 주셨다.
 이 방법을 듣고서는 매일 일기장에 회고를 적기 시작했다.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 65.54054054054055%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAackSLS//8QAGxABAAEFAQAAAAAAAAAAAAAAAgMAAQQQESL/2gAIAQEAAQUCPkKKNVfFHd//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BZH//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BbX//xAAYEAADAQEAAAAAAAAAAAAAAAAAAQIhIP/aAAgBAQAGPwKZNlGNrj//xAAZEAADAQEBAAAAAAAAAAAAAAAAARExUWH/2gAIAQEAAT8hVcxGm/ZDMLlHoqI//9oADAMBAAIAAwAAABAjz//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EKH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAYf/aAAgBAgEBPxBZ/8QAGxABAQACAwEAAAAAAAAAAAAAAREAIUFRkTH/2gAIAQEAAT8QYg67O+cp3H6KemJT1wGemGpqOPSo1mzNrXnP/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;부끄러운 일기장&quot;
-        title=&quot;부끄러운 일기장&quot;
-        src=&quot;/static/2f02df126999b304760621f99a71a60d/1c72d/03.jpg&quot;
-        srcset=&quot;/static/2f02df126999b304760621f99a71a60d/a80bd/03.jpg 148w,
-/static/2f02df126999b304760621f99a71a60d/1c91a/03.jpg 295w,
-/static/2f02df126999b304760621f99a71a60d/1c72d/03.jpg 590w,
-/static/2f02df126999b304760621f99a71a60d/a8a14/03.jpg 885w,
-/static/2f02df126999b304760621f99a71a60d/fbd2c/03.jpg 1180w,
-/static/2f02df126999b304760621f99a71a60d/f4a48/03.jpg 3018w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;두 번째 질문이 특히 기억에 남는데, 실제 경험에서 비롯된 현실적인 조언을 많이 주셨다.
 &lt;strong&gt;커피챗으로 동료들과 친해지기, 회사 위키에서 주간 보고 찾아보기, 짧은 시간 내에 증명할 수 있는 이슈 정하기&lt;/strong&gt; 등 지금의 나에게 많은 도움이 될 수 있는 말씀들을 해주셨다.
 어렵지만 적용해보려고 노력해야겠다는 생각이 들었다.&lt;/p&gt;
@@ -632,39 +608,6 @@ RDB를 대부분 기본 데이터베이스 기술 스택으로 사용해왔지�
 &lt;p&gt;11월 초에 시작해 어느덧 이번주 마지막 발표다.
 재직 중임에도 상당한 양의 발표 준비를 해오고 잘 따라와준 스터디원들에게 고마운 마음이 든다.&lt;/p&gt;
 &lt;p&gt;스터디에 대한 내용은 &lt;a href=&quot;https://www.notion.so/Real-MySQL-8-0-1-439d277a7b4e40a79ecc8637c2fac945&quot;&gt;링크&lt;/a&gt;를 통해 더 자세히 엿보실 수 있다.&lt;/p&gt;
-&lt;h2 id=&quot;도쿄-여행&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%84%EC%BF%84-%EC%97%AC%ED%96%89&quot; aria-label=&quot;도쿄 여행 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%8F%84%EC%BF%84-%EC%97%AC%ED%96%89&quot; aria-label=&quot;도쿄 여행 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;도쿄 여행&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 133.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;도쿄 디즈니씨&quot;
-        title=&quot;도쿄 디즈니씨&quot;
-        src=&quot;/static/86461af3dc5c8811d6c7a9dc9300bf01/fcda8/11.png&quot;
-        srcset=&quot;/static/86461af3dc5c8811d6c7a9dc9300bf01/12f09/11.png 148w,
-/static/86461af3dc5c8811d6c7a9dc9300bf01/e4a3f/11.png 295w,
-/static/86461af3dc5c8811d6c7a9dc9300bf01/fcda8/11.png 590w,
-/static/86461af3dc5c8811d6c7a9dc9300bf01/efc66/11.png 885w,
-/static/86461af3dc5c8811d6c7a9dc9300bf01/c83ae/11.png 1180w,
-/static/86461af3dc5c8811d6c7a9dc9300bf01/4a00e/11.png 1406w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;코시국 이후 첫 해외 여행지로 도쿄를 방문했다.
-반드시 가보고싶은 여행지 중 하나여서 선택을 한 건 아니었다.
-남자친구와 처음으로 가는 해외여행이니 가까운 일본정도라면 부담이 덜할 것 같았다.
-개인적으로 오사카는 두 번이나 다녀왔으니 패스, 그리고 남자친구가 후쿠오카를 다녀와봤으니 패스 …
-겨울의 삿포로가 더 끌렸지만 저렴한 비행편 때문에 최종적으로 도쿄를 선택하게 됐다.&lt;/p&gt;
-&lt;p&gt;간만에 다녀온 일본은 여전히 좋았다.
-디즈니씨의 화려한 풍경과 도쿄역의 츠케멘이 가장 기억에 남는다.
-앞으로는 자주 해외를 나갈 기회가 있었으면 좋겠다.&lt;/p&gt;
 &lt;h2 id=&quot;우리집-소도서관&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B0%EB%A6%AC%EC%A7%91-%EC%86%8C%EB%8F%84%EC%84%9C%EA%B4%80&quot; aria-label=&quot;우리집 소도서관 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EC%9A%B0%EB%A6%AC%EC%A7%91-%EC%86%8C%EB%8F%84%EC%84%9C%EA%B4%80&quot; aria-label=&quot;우리집 소도서관 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;우리집 소도서관&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -983,8 +926,7 @@ CI 코드 외에도 actions를 활용한 자동화 스크립트가 추가될 수
 &lt;p&gt;이처럼 고민의 고민이 끝없이 생겨나고 있지만, 그래도 결론은 &lt;em&gt;도입하길 잘했다&lt;/em&gt; 이다.
 사전에 버그를 찾은 경험도 많아지고있고, 방대한 테스트를 push할 때마다 자동으로 돌려주니 이렇게 편할 수 없다.
 팀원이 2명에서 3명이 되었을 때는 더 빛을 발할 수 있는 문화가 되지 않을까 싶다.&lt;/p&gt;
-&lt;p&gt;아직은 아주 간단한 프로세스이지만, 앞으로 자동화가 필요한 부분은 과감하게 처리하여 훨씬 더 생산성 있는 팀을 만들고 싶다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🌴 2021 하반기 회고]]></title><description><![CDATA[회고가 늦었다. 연말에 사이드 프로젝트하랴 영상 편집하랴 좀 많이 바빴다. 벌써 새해가 밝은지 일주일이 지났다. 나에게 얼마 남지 않은 J(이하 MBTI)를 열심히 쥐어짜내어 나름의 OKR…]]></description><link>http://ugaemi.com/retrospective/2021-Second-Half/</link><guid isPermaLink="false">http://ugaemi.com/retrospective/2021-Second-Half/</guid><pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;회고가 늦었다. 연말에 사이드 프로젝트하랴 영상 편집하랴 좀 많이 바빴다.&lt;/p&gt;
-&lt;p&gt;벌써 새해가 밝은지 일주일이 지났다.&lt;/p&gt;
+&lt;p&gt;아직은 아주 간단한 프로세스이지만, 앞으로 자동화가 필요한 부분은 과감하게 처리하여 훨씬 더 생산성 있는 팀을 만들고 싶다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🌴 2021 하반기 회고]]></title><description><![CDATA[벌써 새해가 밝은지 일주일이 지났다. 나에게 얼마 남지 않은 J(이하 MBTI)를 열심히 쥐어짜내어 나름의 OKR도 세워보고 생활 루틴도 만들어보고 있다. 올해 계획을 더 끄적이기 전에 지난 2021년 하반기에 대한 회고를 해보고자 한다. +x…]]></description><link>http://ugaemi.com/retrospective/2021-Second-Half/</link><guid isPermaLink="false">http://ugaemi.com/retrospective/2021-Second-Half/</guid><pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;벌써 새해가 밝은지 일주일이 지났다.&lt;/p&gt;
 &lt;p&gt;나에게 얼마 남지 않은 J(이하 MBTI)를 열심히 쥐어짜내어 나름의 OKR도 세워보고 생활 루틴도 만들어보고 있다.&lt;/p&gt;
 &lt;p&gt;올해 계획을 더 끄적이기 전에 지난 2021년 하반기에 대한 회고를 해보고자 한다.&lt;/p&gt;
 &lt;h2 id=&quot;x-안녕&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#x-%EC%95%88%EB%85%95&quot; aria-label=&quot;x 안녕 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#x-%EC%95%88%EB%85%95&quot; aria-label=&quot;x 안녕 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;+x 안녕&lt;/h2&gt;
@@ -1076,7 +1018,7 @@ CI 코드 외에도 actions를 활용한 자동화 스크립트가 추가될 수
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;GIT 멘토링과 외주를 했던 게 기억에 남는다. &lt;a href=&quot;https://ugaemi.com/retrospect/GIT-AWS-Mentoring/&quot;&gt;GIT 멘토링에 대한 글&lt;/a&gt; 은 포스팅한 적이 있어 넘어가 보겠다.&lt;/p&gt;
+&lt;p&gt;GIT 멘토링과 외주를 했던 게 기억에 남는다. &lt;a href=&quot;https://ugaemi.com/retrospective/GIT-AWS-Mentoring/&quot;&gt;GIT 멘토링에 대한 글&lt;/a&gt; 은 포스팅한 적이 있어 넘어가 보겠다.&lt;/p&gt;
 &lt;p&gt;이번 외주는 총 5명이서 프로젝트를 하게 됐다. 외주 경험은 세번째인데, 기획자와 디자이너 그리고 프론트 개발자까지 완전한 팀 체제로 해 본 건 처음이었다.&lt;/p&gt;
 &lt;p&gt;백엔드 개발은 거의 혼자 전담하게 되어서 부담스러운 부분이 없지 않았지만 주변 분들이 많이 도와주셔서 성공리에 마무리하게 됐다.&lt;/p&gt;
 &lt;p&gt;놀랍게도 외주는 할 때마다 다신 안하겠다는 다짐을 하는데, 잔금일이 되어 자본주의의 맛을 보면 금세 잊혀진다ㅎ&lt;/p&gt;
@@ -1139,9 +1081,9 @@ CI 코드 외에도 actions를 활용한 자동화 스크립트가 추가될 수
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;만나이 표준화는 언제 되려나? 어쨌거나 보편적인 나이로는 벌써 27살이 되었다.&lt;/p&gt;
 &lt;p&gt;올해는 문득 어른스러워져야겠다는 생각이 들었다.&lt;/p&gt;
-&lt;p&gt;좀 더 정확히 표현하자면 어른스러움보다는 &lt;strong&gt;프로페셔널한 사람&lt;/strong&gt;이 되어야겠다.&lt;/p&gt;
+&lt;p&gt;좀 더 정확히 표현하자면 어른스러움보다는 프로페셔널한 사람이 되어야겠다.&lt;/p&gt;
 &lt;p&gt;외적인 모습부터 내면까지 한층 더 업그레이드 해야 할 시기가 온 거다.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;예전의 나는 철없고 솔직했으니 변해야해!&lt;/em&gt; 이게 아니라, 격식있는 자리에는 격식있게 옷을 입는 것처럼, 사회에서도 더이상 신입사원이 아니니 그에 맞는 프로다운 면모를 보여줄 때란 말이다.&lt;/p&gt;
+&lt;p&gt;격식있는 자리에는 격식있게 옷을 입는 것처럼, 사회에서도 더이상 신입사원이 아니니 그에 맞는 프로다운 면모를 보여줄 때란 말이다.&lt;/p&gt;
 &lt;p&gt;MBTI가 ENFJ에서 INTP로 무려 3자리가 변했다. 이에 따라 패션 취향이나 관심사도 많이 변한 것 같다.&lt;/p&gt;
 &lt;p&gt;긍정적이든 부정적이든 나라는 사람이 근 몇 년 사이에 참 많이 변했다고 느꼈다. 주변에서도 그런 이야기를 자주 들었다.&lt;/p&gt;
 &lt;p&gt;2022년에는 본래 모습 중에 잃고 싶지 않은 부분은 지켜내는 노력을, 부족한 부분은 채워나갈 노력을 해야겠다.&lt;/p&gt;
@@ -1836,7 +1778,7 @@ Host, Port, Username, Authentication type 등의 설정을 완료했다면 &lt;s
 아직은 주니어 개발자라서 리더라는 표현이 어색하게 들릴 수 있지만 &lt;em&gt;Ownership을 가지고 일을 하는 사람이라면 누구나 리더&lt;/em&gt; 라는 멘토님의 말이 강하게 기억에 남는다.
 실제로 에세이를 작성해보니 4가지 원칙(Leaders are Right A Lot, Think Big, Frugality, Success and Scale Bring Board Responsibility …)에 대해서는 마땅히 떠오르는 경험이 없었고 이를 통해 더 나은 리더가 되려면 어떤 경험을 더 쌓아가야 할지 대강 감이 잡혔다.&lt;/p&gt;
 &lt;p&gt;이외에도 커리어 패스 그려보기, 기술 인터뷰 질문에 대한 답 생각해보기, 프리 토킹 등 매 주제마다 너무나도 알차고 좋은 시간들을 보냈다.
-특히 &lt;strong&gt;다수를 위한 뻔한 멘토링이 아니라 소수를 위한 진심어린 멘토링&lt;/strong&gt;을 해주셔서 더 마음에 와닿았던 것 같다.&lt;/p&gt;
+특히 다수를 위한 뻔한 멘토링이 아니어서 더 마음에 와닿았던 것 같다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
@@ -2341,7 +2283,6 @@ If reversing x causes the value to go outside the signed 32-bit integer range [-
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/ugaemi/BitSsonda&quot;&gt;BitSsonda&lt;/a&gt;는 2시간(?)만에 만든 아주 간단한 실시간 상승 코인 알림 슬랙 봇이다.&lt;/p&gt;
 &lt;p&gt;코인장이 한참 재밌을 때 가지고 좀 놀다가 지금은 다시 주식으로 돌아왔다.&lt;/p&gt;
-&lt;p&gt;카카오만 보면 마음이 편안해진다..카카오 사랑해!&lt;/p&gt;
 &lt;h2 id=&quot;미궁속으로-빠진-프로젝트들&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AF%B8%EA%B6%81%EC%86%8D%EC%9C%BC%EB%A1%9C-%EB%B9%A0%EC%A7%84-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%93%A4&quot; aria-label=&quot;미궁속으로 빠진 프로젝트들 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%AF%B8%EA%B6%81%EC%86%8D%EC%9C%BC%EB%A1%9C-%EB%B9%A0%EC%A7%84-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%93%A4&quot; aria-label=&quot;미궁속으로 빠진 프로젝트들 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;미궁속으로 빠진 프로젝트들&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -2454,65 +2395,8 @@ If reversing x causes the value to go outside the signed 32-bit integer range [-
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/leonardomso/33-js-concepts&quot;&gt;33-js-concepts&lt;/a&gt;를 주제로 한 챕터씩 정리하며 발표하는 스터디가 마무리되었다.&lt;/p&gt;
 &lt;p&gt;벌써 이들과 함께한지 3년째인데, 생각보다 스터디를 잘 유지하는 것 같아 신기하기도 하다.
-일단 이사람들이 다같이 개발자로 밥벌어먹고 산다는것부터 신기하긴 하다 ㅋㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
-&lt;p&gt;아무튼 예상 일정보다 2배는 길어진 것 같지만, 마무리를 지었다니 참 뿌듯하다.
-다음엔 또 어떤 주제로 스터디를 하게 될지 모르지만 친구들과 이런 그룹을 만들어 소통할 수 있다는 것 자체가 좋다.&lt;/p&gt;
-&lt;h2 id=&quot;사이드-프로젝트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8&quot; aria-label=&quot;사이드 프로젝트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8&quot; aria-label=&quot;사이드 프로젝트 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사이드 프로젝트&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAACo0lEQVQozw2Pe0zMAQDHf+M/WzZrTVapJo/mlTQ9rwcddz2uh7o71+vO9dK6bEhYu5HNKyRZTWV5hGi1tP5gqlU45FESmaS1O3WiOnpO8nF/fP/8fD/fr7B4kQ1LbJOxW30Hu7VXWCN+ysa4XjbI+1kfPcCWxG+IDvURevojIfoBXKONrAvtxnFbK8vcqrBZcQRbJy1OzrHYO6YjOPq04ry5An9FLyHpo6RUmTnTNUa+YYyTz8fY/2SUYuNPXixM0z43Ra7BQniBBe/4QRyCe1guNrJKOoOHZBo3XyPCuoBmROF3UWQ/JP7oP9KaxnnFJL3WvMHCi/kJzv34jGHWwvDfP7xmgsPvxxGdmWKragiXoC7cJSO4BnzAwbMdwcmzHu+IFhJTS9CdGCbl8iSnhsw8nbfwZnaKR3MTNE2byRt8R9GYiXyTidwBM+EdPwgo+s0q5Sjusk4kCQaCdr9GCNz3laR8IwnpN8jJa0B3fgFds5mK2e+0W0urZ0a4ZDahfPkJ6WMTsU2/CCqbxEs/w/rsCdz3DuMhb8VjezVhykYE9dF2NLomkrJq2Zt5jsyzI6RYgYxnw+i6R4mvHSe48BfB+jmCciwEpvYTqu1Aqq5FllxOlKqEGFUxAeG30GQ/QPAT6VFrK8k42IA6s4jU3Dqi9H+Q6KcJOzKCJOsT0RkdxGhqiFGXI1cXo9CUIVXcQ5HWbB3SRqSyHl//A0hjriLsSGxkV3wpoRGlKFPvI5UXEhJ3k4Ssm6gyrqHQllmvVOInq8NT3II6r49DhR/YozUgU7UijryOPLHIyhfgLcpH8NL24KlpQ36sE/XxPjYp3+If12C11+AvrcR7520cfGtwFd1iqf0FNojaCNv3hYTcTnbJagkUX8TZJYLlDj44rgzjP5qayUPuqe9TAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;행복회로&quot;
-        title=&quot;행복회로&quot;
-        src=&quot;/static/d237e59636e841e1c8bd8fbabdb99ce7/fcda8/06.png&quot;
-        srcset=&quot;/static/d237e59636e841e1c8bd8fbabdb99ce7/12f09/06.png 148w,
-/static/d237e59636e841e1c8bd8fbabdb99ce7/e4a3f/06.png 295w,
-/static/d237e59636e841e1c8bd8fbabdb99ce7/fcda8/06.png 590w,
-/static/d237e59636e841e1c8bd8fbabdb99ce7/efc66/06.png 885w,
-/static/d237e59636e841e1c8bd8fbabdb99ce7/fbf08/06.png 962w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;우연한 기회로 사이드 프로젝트를 시작하게 되었다.
-그간 시도했던 많은 사이드 프로젝트들은 시작도 전에 이게 얼마나 갈까? 하는 막연한 걱정부터 들었는데, 이번 프로젝트는 좀 다르다.
-쉽게 모을 수 없는 포지션의 멤버들로 구성된 그룹으로, 당장은 오픈하기 어렵다.&lt;/p&gt;
-&lt;p&gt;올해 4분기 1차 오픈을 목표로 달리고 있는데, 요즘 이 프로젝트 개발하는 맛에 사는 것 같다.
-로또처럼 행복회로를 돌리게 만드는 사이드 프로젝트…❤️&lt;/p&gt;
-&lt;p&gt;오픈 후 회고를 작성할 날이 빨리 왔으면 좋겠다!&lt;/p&gt;
-&lt;h2 id=&quot;&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot; permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; aria-label=&quot; permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐝&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGbUWo6JxMAD//EABkQAAIDAQAAAAAAAAAAAAAAAAABERITIP/aAAgBAQABBQJDJNEaIsuP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFhABAQEAAAAAAAAAAAAAAAAAIDEA/9oACAEBAAY/AhdR/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAERICFR4fH/2gAIAQEAAT8hgQgdwsjGzQfJR//aAAwDAQACAAMAAAAQJ+/C/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/ECP/xAAbEAEBAAIDAQAAAAAAAAAAAAABABExECFBYf/aAAgBAQABPxBxCF6upkE+WsWqp5M3/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;한강&quot;
-        title=&quot;한강&quot;
-        src=&quot;/static/cf8f7b9ccf4da9193e783bcb393ced06/1c72d/07.jpg&quot;
-        srcset=&quot;/static/cf8f7b9ccf4da9193e783bcb393ced06/a80bd/07.jpg 148w,
-/static/cf8f7b9ccf4da9193e783bcb393ced06/1c91a/07.jpg 295w,
-/static/cf8f7b9ccf4da9193e783bcb393ced06/1c72d/07.jpg 590w,
-/static/cf8f7b9ccf4da9193e783bcb393ced06/a8a14/07.jpg 885w,
-/static/cf8f7b9ccf4da9193e783bcb393ced06/fbd2c/07.jpg 1180w,
-/static/cf8f7b9ccf4da9193e783bcb393ced06/9568a/07.jpg 3024w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;올 상반기를 생각하면 절대 빼먹을 수 없는 일이 하나 있는데.. 비밀이다 👻&lt;/p&gt;
+일단 이사람들이 다같이 개발자로 밥벌어먹고 산다는것부터 신기하긴 하다 ㅋㅋㅋㅋㅋㅋㅋ
+아무튼 예상 일정보다 2배는 길어진 것 같지만, 마무리를 지었다니 참 뿌듯하다.&lt;/p&gt;
 &lt;h2 id=&quot;하반기-계획&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%98%EB%B0%98%EA%B8%B0-%EA%B3%84%ED%9A%8D&quot; aria-label=&quot;하반기 계획 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%ED%95%98%EB%B0%98%EA%B8%B0-%EA%B3%84%ED%9A%8D&quot; aria-label=&quot;하반기 계획 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;하반기 계획&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -3077,48 +2961,9 @@ dataLayer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span 
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;2020년 가장 강렬히 기억에 남을 프로젝트는 뭐니뭐니해도 &lt;a href=&quot;https://lu42.co.kr/campaign/flowergarden/mbti.php?utm_source=pr&amp;#x26;utm_medium=display_image&amp;#x26;utm_campaign=flowergarden&amp;#x26;utm_content=banner_fossula&quot;&gt;꽃 MBTI&lt;/a&gt;가 아닐까 싶다.
-테스트 결과 공유 시 의료진 분들에게 자동으로 1000원이 후원되는 좋은 취지로 시작해 흔한 MBTI 테스트보다 훨씬 높은 정확도로 입소문을 타 3일동안 네이버 검색 순위에 올라있던..! 그 꽃 MBTI를 함께 만들고 대응한 것이 아직도 놀랍다.
+테스트 결과 공유 시 의료진 분들에게 자동으로 1,000원이 후원되는 좋은 취지로 시작해 흔한 MBTI 테스트보다 훨씬 높은 정확도로 입소문을 타 3일동안 네이버 검색 순위에 올라있던..! 그 꽃 MBTI를 함께 만들고 대응한 것이 아직도 놀랍다.
 예상보다 몇십, 아니 몇백배는 많았던 트래픽 덕분에 단기간에 정말 많은 경험을 하게 되었다.
 이 프로젝트의 비하인드는 담을 내용이 많아 따로 포스팅을 하는 편이 좋을 것 같다.&lt;/p&gt;
-&lt;h2 id=&quot;코로나-때문에&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%A1%9C%EB%82%98-%EB%95%8C%EB%AC%B8%EC%97%90&quot; aria-label=&quot;코로나 때문에 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EC%BD%94%EB%A1%9C%EB%82%98-%EB%95%8C%EB%AC%B8%EC%97%90&quot; aria-label=&quot;코로나 때문에 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코로나 때문에&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAACDklEQVQoz0WSy2tTQRTGg+am87yZ+8y9N0lfER9dxLYYUFEobhQRQRdCwY3uVUToKloao9JFlVZtCloJaKSCYsFdt278C/x3Ps9MWlwc7sy5c37nm29OSVcDhMUUsskWgiiGlIyCQymBJI2R5RlS+qa1BGFooLVw/4RgqBoJEwpon/acQ1BdiXOGCa8MVvEoydxBG5zCUHFUFWCU11qBUc73OdJQgfMJ11wrTutxCEFAIWw3CamkS1iYok4VxjDXiHGn04KkMyfzAHNTmVNnSJEDWpVaHMLEf6CUwl3TAQ+vK22hlmilBhkVXVho4/bVK2gUOUyVFIoJKMr7/lG9dMJKFmJhR74pq9R2pFB0iFklFIsLHVw+30FeizHfPoHmZEqeSjSLwIHHDGGBzIGs2dZDxspIGgZ54UN4xx2sXD6G9pnTuLl0EVHgo54niEKNgPyNIw1JKhXB3KOMFdKGPIsKg3sve+h/2Ud3d4T5a5eoGXfF9dlZnDp7Do0sxPRMjLhmUNQC5ImBT68dJYpenRSaQNNCwSe/knqA3ugbvh78xc7+H/Q//cAmxau3e+gPfuLF7i9sfPiO3rs9rG19xvuD31i6u4ws8TDTCtGc9mls7IjQtazJXqWMW/ef4PHqNh5132Dl+QD9zSHWNoZ4uv4R3fUddF8P8WB1gIfPtrCyPcLi9RvgXgnG2Hnk+Afu0QA31/XKbQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;요즘_때&quot;
-        title=&quot;요즘_때&quot;
-        src=&quot;/static/8a3bf2b3610836b155571aaf07ea26c1/fcda8/06.png&quot;
-        srcset=&quot;/static/8a3bf2b3610836b155571aaf07ea26c1/12f09/06.png 148w,
-/static/8a3bf2b3610836b155571aaf07ea26c1/e4a3f/06.png 295w,
-/static/8a3bf2b3610836b155571aaf07ea26c1/fcda8/06.png 590w,
-/static/8a3bf2b3610836b155571aaf07ea26c1/efc66/06.png 885w,
-/static/8a3bf2b3610836b155571aaf07ea26c1/c83ae/06.png 1180w,
-/static/8a3bf2b3610836b155571aaf07ea26c1/4719e/06.png 1330w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;아마 2020년에 가장 많이 언급된 말이 아닐까?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;코로나 때문에 못 만날 것 같아&lt;/p&gt;
-&lt;p&gt;코로나 때문에 취소했어&lt;/p&gt;
-&lt;p&gt;코로나 때문에 집에 있어&lt;/p&gt;
-&lt;p&gt;코로나 때문에 …&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;코로나 때문에 재택 근무라는 것도 해보고&lt;/p&gt;
-&lt;p&gt;코로나 때문에 화상 면접도 해보고&lt;/p&gt;
-&lt;p&gt;코로나 때문에 올해 기억에 남은 추억이 몇 없다.&lt;/p&gt;
-&lt;p&gt;그러나 코로나 때문에 IT 기업들은 전례없는 호황기를 누리고 있기도 하다.
-한편으로는 이쪽 분야에 종사하고 있어 다행이라는 생각도 했다.&lt;/p&gt;
-&lt;p&gt;그렇다고 지금이 좋다는 건 절대 아니다.
-여러모로 빨리 이 사태가 종식이 되어, 집각코가 아닌 모각코를 하고싶다!!!!!! 빼액&lt;/p&gt;
 &lt;h2 id=&quot;2021년이야-정말&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2021%EB%85%84%EC%9D%B4%EC%95%BC-%EC%A0%95%EB%A7%90&quot; aria-label=&quot;2021년이야 정말 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#2021%EB%85%84%EC%9D%B4%EC%95%BC-%EC%A0%95%EB%A7%90&quot; aria-label=&quot;2021년이야 정말 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2021년이야 정말?&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -3144,7 +2989,7 @@ dataLayer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span 
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;세상은 빠르게 변해가고 있지만, 이런 때일수록 나만의 중심을 잡아야 한다.&lt;/p&gt;
-&lt;p&gt;힘들더라도 모두가 이겨낼 수 있다는 믿음을 잃지 않았으면 한다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🧠 Consecutive Characters]]></title><description><![CDATA[문제 Given a string s, the power of the string is the maximum length of a non-empty substring that contains only one unique character.
+&lt;p&gt;힘들더라도 모두가 이겨낼 수 있다는 믿음을 잃지 않았으면 한다! 아좌좟&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🧠 Consecutive Characters]]></title><description><![CDATA[문제 Given a string s, the power of the string is the maximum length of a non-empty substring that contains only one unique character.
 Return…]]></description><link>http://ugaemi.com/algorithm/Consecutive-characters/</link><guid isPermaLink="false">http://ugaemi.com/algorithm/Consecutive-characters/</guid><pubDate>Tue, 03 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;문제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Given a string s, the power of the string is the maximum length of a non-empty substring that contains only one unique character.
