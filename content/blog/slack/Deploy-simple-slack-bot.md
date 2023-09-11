@@ -3,7 +3,7 @@ title: '🤖 간단한 Slack Bot 만들어 배포해보기'
 subtitle: '영자봇, 내 점심을 부탁해!'
 date: 2019-05-04
 category: 'Slack'
-draft: false
+draft: true
 ---
 
 매일 점심, 저녁 시간에 메뉴를 고르는 것도 일이다.
