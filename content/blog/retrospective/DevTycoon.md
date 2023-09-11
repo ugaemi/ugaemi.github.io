@@ -3,7 +3,7 @@ title: '😭 DevTycoon 스터디 회고'
 subtitle: '첫 스터디의 마지막 장'
 date: 2019-08-03
 category: 'Retrospective'
-draft: false
+draft: true
 ---
 
 약 반년 간 함께했던 [DevTycoon](https://github.com/ugaemi/programming_note) 개발 스터디의 마지막 모임을 했다. (롬곡옾높...)
